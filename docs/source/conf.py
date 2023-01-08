@@ -12,13 +12,13 @@ version = '1.0.0'
 # -- General configuration
 
 extensions = [
-    "nbsphinx",
-    "myst_parser", # pip install myst-parser
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "nbsphinx", # pip install nbsphinx
+    #"myst_parser", # pip install myst-parser
+    #'sphinx.ext.duration',
+    #'sphinx.ext.doctest',
+    #'sphinx.ext.autodoc',
+    #'sphinx.ext.autosummary',
+    #'sphinx.ext.intersphinx',
 ]
 
 intersphinx_mapping = {
