@@ -33,7 +33,6 @@ html_theme = 'alabaster'
 
 html_theme_options = {
     'analytics_id': 'UA-253317179-1',  #  Provided by Google in your dashboard, G-B2C3KPTYYZ
-    'analytics_anonymize_ip': False,
     'logo': 'logo.png',
     'github_banner' : 'true',
     'github_button' : 'true',
