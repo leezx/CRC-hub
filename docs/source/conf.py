@@ -35,6 +35,8 @@ html_theme_options = {
     'analytics_id': 'G-B2C3KPTYYZ',  #  Provided by Google in your dashboard
     'analytics_anonymize_ip': False,
     'logo': 'logo.png',
+    'github_banner' : 'true',
+    'github_button' : 'true',
     'github_user': 'bitprophet',
     'github_repo': 'alabaster',
 }
