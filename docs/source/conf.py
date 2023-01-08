@@ -31,5 +31,13 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    'analytics_id': 'G-B2C3KPTYYZ',  #  Provided by Google in your dashboard
+    'analytics_anonymize_ip': False,
+    'logo': 'logo.png',
+    'github_user': 'bitprophet',
+    'github_repo': 'alabaster',
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
