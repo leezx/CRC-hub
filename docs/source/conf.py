@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'bt3m-multimodal'
+copyright = '2023, DFCI'
+author = 'Zhixin Li'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0.0'
 
 # -- General configuration
 
@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 html_theme_options = {
     'analytics_id': 'G-B2C3KPTYYZ',  #  Provided by Google in your dashboard
