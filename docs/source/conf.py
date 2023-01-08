@@ -13,7 +13,7 @@ version = '1.0.0'
 
 extensions = [
     "nbsphinx", # pip install nbsphinx
-    #"myst_parser", # pip install myst-parser
+    "myst_parser", # pip install myst-parser
     #'sphinx.ext.duration',
     #'sphinx.ext.doctest',
     #'sphinx.ext.autodoc',
