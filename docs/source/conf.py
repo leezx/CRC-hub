@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'bt3m-multimodal'
-copyright = '2023, DFCI'
+copyright = '2023, Zhixin Li (DFCI)'
 author = 'Zhixin Li'
 
 release = '1.0'
@@ -32,13 +32,13 @@ templates_path = ['_templates']
 html_theme = 'alabaster'
 
 html_theme_options = {
-    'analytics_id': 'G-B2C3KPTYYZ',  #  Provided by Google in your dashboard
+    'analytics_id': 'UA-253317179-1',  #  Provided by Google in your dashboard, G-B2C3KPTYYZ
     'analytics_anonymize_ip': False,
     'logo': 'logo.png',
     'github_banner' : 'true',
     'github_button' : 'true',
-    'github_user': 'bitprophet',
-    'github_repo': 'alabaster',
+    'github_user': 'leezx',
+    'github_repo': 'bt3m-multimodal',
 }
 
 # -- Options for EPUB output
