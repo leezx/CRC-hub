@@ -36,7 +36,7 @@ templates_path = ['_templates']
 html_theme = 'alabaster'
 
 html_theme_options = {
-    'analytics_id': 'UA-253317179-1',  #  Provided by Google in your dashboard, G-B2C3KPTYYZ
+    'analytics_id': 'G-B2C3KPTYYZ',  #  Provided by Google in your dashboard, G-B2C3KPTYYZ，UA-253317179-1
     'logo': 'logo.png',
     'github_banner' : 'false',
     'github_button' : 'false',
