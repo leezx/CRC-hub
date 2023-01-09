@@ -13,8 +13,9 @@ version = '1.0.0'
 master_doc = 'index'
 
 extensions = [
-    "nbsphinx", # pip install nbsphinx
-    "myst_parser", # pip install myst-parser
+    "myst_nb", # pip install myst_nb
+    #"nbsphinx", # pip install nbsphinx
+    #"myst_parser", # pip install myst-parser
     #'sphinx.ext.duration',
     #'sphinx.ext.doctest',
     #'sphinx.ext.autodoc',
