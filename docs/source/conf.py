@@ -38,8 +38,8 @@ html_theme = 'alabaster'
 html_theme_options = {
     'analytics_id': 'UA-253317179-1',  #  Provided by Google in your dashboard, G-B2C3KPTYYZ
     'logo': 'logo.png',
-    'github_banner' : 'true',
-    'github_button' : 'true',
+    'github_banner' : 'false',
+    'github_button' : 'false',
     'github_user': 'leezx',
     'github_repo': 'bt3m-multimodal',
 }

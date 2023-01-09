@@ -1,5 +1,5 @@
 Welcome to bt3m-multimodal's documentation!
-===================================
+==================
 
 .. toctree::
 	:maxdepth: 2
@@ -8,3 +8,11 @@ Welcome to bt3m-multimodal's documentation!
 	usage
 	api
 	notebooks/test
+
+
+Thumbnails gallery
+==================
+
+.. nbgallery::
+	notebooks/test
+
