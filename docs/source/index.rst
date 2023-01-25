@@ -8,6 +8,7 @@ Welcome to bt3m-multimodal's documentation!
 	usage
 	api
 	notebooks/test
+	notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
 
 
 Thumbnails gallery
@@ -15,4 +16,4 @@ Thumbnails gallery
 
 .. nbgallery::
 	notebooks/test
-
+	notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
