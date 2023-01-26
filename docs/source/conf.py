@@ -17,11 +17,11 @@ extensions = [
     "nbsphinx", # pip install nbsphinx
     "myst_parser", # pip install myst-parser
     "sphinx_gallery.load_style",
-    #'sphinx.ext.duration',
-    #'sphinx.ext.doctest',
-    #'sphinx.ext.autodoc',
-    #'sphinx.ext.autosummary',
-    #'sphinx.ext.intersphinx',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx_copybutton',
+    'sphinx_panels',
+    'sphinx.ext.viewcode',
 ]
 
 intersphinx_mapping = {
