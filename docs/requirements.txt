@@ -5,3 +5,4 @@ sphinx-panels
 pydata-sphinx-theme
 sphinx-copybutton
 furo
+sphinx-rtd-size

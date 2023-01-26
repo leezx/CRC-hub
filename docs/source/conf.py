@@ -25,6 +25,7 @@ extensions = [
     'sphinx_panels',
     'sphinx.ext.viewcode',
     # theme
+    'sphinx_rtd_size',
 ]
 
 intersphinx_mapping = {
@@ -40,7 +41,7 @@ templates_path = ['_templates']
 html_theme = 'furo' # alabaster, furo, sphinx_rtd_theme
 html_logo = "CRChub.png"
 html_static_path = ['_static'] 
-html_style = 'css/my_theme.css'
+sphinx_rtd_size_width = "100%"
 
 logo_only = True
 display_version = False
