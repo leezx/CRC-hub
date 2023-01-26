@@ -38,14 +38,15 @@ html_theme = 'furo' # alabaster
 html_logo = "CRChub.png"
 logo_only = True
 display_version = False
+analytics_id = 'G-K4WP6HMMF7'
 
-html_theme_options = {
-    'analytics_id': 'G-K4WP6HMMF7',  #  Provided by Google in your dashboard, UA-253317179-2
-    'github_banner' : 'false',
-    'github_button' : 'false',
-    'github_user': 'leezx',
-    'github_repo': 'bt3m-multimodal',
-}
+# html_theme_options = {
+#    'analytics_id': 'G-K4WP6HMMF7',  #  Provided by Google in your dashboard, UA-253317179-2
+    # 'github_banner' : 'false',
+    # 'github_button' : 'false',
+    # 'github_user': 'leezx',
+    # 'github_repo': 'bt3m-multimodal',
+# }
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

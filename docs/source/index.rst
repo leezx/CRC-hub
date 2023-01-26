@@ -1,4 +1,4 @@
-Welcome to bt3m-multimodal's documentation!
+CRC-hub (DFCI)
 ==================
 
 .. toctree::
