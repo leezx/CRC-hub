@@ -6,3 +6,4 @@ pydata-sphinx-theme
 sphinx-copybutton
 furo
 sphinx-rtd-size
+pydata_sphinx_theme
