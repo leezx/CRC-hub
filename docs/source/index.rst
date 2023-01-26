@@ -15,5 +15,9 @@ Thumbnails gallery
 ==================
 
 .. nbgallery::
+	:caption: Theme block one:
+    :name: rst-gallery
+    :glob:
+    :reversed:
 	notebooks/test
 	notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
