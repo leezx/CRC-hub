@@ -30,9 +30,9 @@ Thumbnails gallery
 		:img-top-cls: panel-height
 		:body: p-0
 		---
-		:img-top: _static/topic_model_pictograph.svg
+		:img-top: _static/CRC-hub.svg
 		+++
-		.. link-button:: notebooks/tutorial_topic_model_tuning_full
+		.. link-button:: notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
 			:type: ref
 			:text: Multimodel Topic Modeling
 			:classes: btn-link stretched-link font-weight-bold
