@@ -2,7 +2,7 @@ CRC-hub (DFCI)
 ==================
 
 .. toctree::
-	:maxdepth: 2
+	:maxdepth: 1
 	:caption: Contents:
 
 	usage
@@ -11,16 +11,8 @@ CRC-hub (DFCI)
 	notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
 
 
-Thumbnails gallery
+Block 1
 ==================
-
-.. nbgallery::
-	:caption: Theme block one:
-	:name: rst-gallery
-	:glob:
-	:reversed:
-
-	notebooks/*
 
 
 .. panels::
@@ -45,4 +37,3 @@ Thumbnails gallery
 		:type: ref
 		:text: Multimodel Topic Modeling
 		:classes: btn-link stretched-link font-weight-bold
-		
