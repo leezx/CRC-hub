@@ -24,12 +24,17 @@ Thumbnails gallery
 
 
 .. panels::
+
 	:card: + text-center
 	:img-top-cls: panel-height
 	:body: p-0
+
 	---
+
 	:img-top: _static/CRC-hub.svg
+
 	+++
+	
 	.. link-button:: notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
 		:type: ref
 		:text: Multimodel Topic Modeling
