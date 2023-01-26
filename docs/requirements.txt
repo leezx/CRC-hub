@@ -4,3 +4,4 @@ sphinx_gallery
 sphinx-panels
 pydata-sphinx-theme
 sphinx-copybutton
+furo

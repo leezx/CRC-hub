@@ -2,6 +2,8 @@
 
 # -- Project information
 
+# import furo
+
 project = 'CRChub'
 copyright = '2023, Zhixin Li (DFCI)'
 author = 'Zhixin Li'
@@ -22,6 +24,7 @@ extensions = [
     'sphinx_copybutton',
     'sphinx_panels',
     'sphinx.ext.viewcode',
+    # theme
 ]
 
 intersphinx_mapping = {
