@@ -34,7 +34,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme' # alabaster, furo
+html_theme = 'furo' # alabaster, furo, sphinx_rtd_theme
 html_logo = "CRChub.png"
 logo_only = True
 display_version = False
