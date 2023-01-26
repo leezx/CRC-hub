@@ -1,4 +1,4 @@
 [project]
-name = "BT3M-multimodal"
+name = "CRC-hub"
 authors = [{name = "Zhixin Li", email = "zhixin_li@dfci.harvard.edu"}]
 dynamic = ["version", "description"]

@@ -34,7 +34,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'alabaster'
+html_theme = 'furo' # alabaster
 html_logo = "CRChub.png"
 logo_only = True
 display_version = False
