@@ -1,7 +1,6 @@
-.
+myst-parser
+nbsphinx
+sphinx_gallery
 sphinx-panels
 pydata-sphinx-theme
-nbsphinx
 sphinx-copybutton
-numpydoc
-ipython
