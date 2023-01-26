@@ -35,6 +35,7 @@ templates_path = ['_templates']
 
 html_theme = 'alabaster'
 html_logo = "CRChub.png"
+logo_only = True
 
 html_theme_options = {
     'analytics_id': 'G-K4WP6HMMF7',  #  Provided by Google in your dashboard, UA-253317179-2
