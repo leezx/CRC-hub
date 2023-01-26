@@ -21,3 +21,19 @@ Thumbnails gallery
 	:reversed:
 
 	notebooks/*
+
+
+.. container :: home-content
+
+	.. panels::
+		:card: + text-center
+		:img-top-cls: panel-height
+		:body: p-0
+		---
+		:img-top: _static/topic_model_pictograph.svg
+		+++
+		.. link-button:: notebooks/tutorial_topic_model_tuning_full
+			:type: ref
+			:text: Multimodel Topic Modeling
+			:classes: btn-link stretched-link font-weight-bold
+
