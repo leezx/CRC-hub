@@ -34,13 +34,10 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'alabaster'
-html_static_path = ['_static']
-html_logo = "_static/CRChub.png"
+html_logo = "CRChub.png"
 
 html_theme_options = {
     'analytics_id': 'G-K4WP6HMMF7',  #  Provided by Google in your dashboard, UA-253317179-2
-    'logo_only': True,
-    'display_version': False,
     'github_banner' : 'false',
     'github_button' : 'false',
     'github_user': 'leezx',
