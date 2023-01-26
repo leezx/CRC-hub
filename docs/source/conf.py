@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'bt3m-multimodal'
+project = 'CRChub'
 copyright = '2023, Zhixin Li (DFCI)'
 author = 'Zhixin Li'
 
@@ -34,7 +34,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'furo' # alabaster
+html_theme = 'sphinx_rtd_theme' # alabaster, furo
 html_logo = "CRChub.png"
 logo_only = True
 display_version = False
