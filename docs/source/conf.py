@@ -39,6 +39,9 @@ templates_path = ['_templates']
 
 html_theme = 'furo' # alabaster, furo, sphinx_rtd_theme
 html_logo = "CRChub.png"
+html_static_path = ['_static'] 
+html_style = 'css/my_theme.css'
+
 logo_only = True
 display_version = False
 analytics_id = 'G-K4WP6HMMF7'
