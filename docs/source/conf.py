@@ -27,7 +27,6 @@ extensions = [
     # theme
     'sphinx_rtd_size',
     'ipykernel', # for kernels
-    'insipid-sphinx-theme'
 ]
 
 nbsphinx_kernel_name = 'python'
