@@ -26,7 +26,7 @@ extensions = [
     'sphinx.ext.viewcode',
     # theme
     'sphinx_rtd_size',
-    'ipykernel'
+    'ipykernel' # for kernels
 ]
 
 intersphinx_mapping = {
