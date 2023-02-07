@@ -26,7 +26,8 @@ extensions = [
     'sphinx.ext.viewcode',
     # theme
     'sphinx_rtd_size',
-    'ipykernel' # for kernels
+    'ipykernel', # for kernels
+    'insipid-sphinx-theme'
 ]
 
 nbsphinx_kernel_name = 'python'
