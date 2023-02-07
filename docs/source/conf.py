@@ -30,7 +30,7 @@ extensions = [
 ]
 
 nbsphinx_kernel_name = 'python'
-nbsphinx_execute = 'never'
+nbsphinx_execute = 'never' # don't check R code
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
