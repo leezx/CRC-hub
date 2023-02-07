@@ -26,7 +26,7 @@ Block 1
 	:img-top: _static/CRChub.png
 
 	+++
-	.. link-button:: notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
+	.. link-button:: notebooks/Toolbox
 		:type: ref
 		:text: Multimodel Topic Modeling
 		:classes: btn-link stretched-link font-weight-bold
@@ -35,7 +35,7 @@ Block 1
 	:img-top: _static/CRChub.png
 
 	+++
-	.. link-button:: notebooks/test
+	.. link-button:: notebooks/Datasets
 		:type: ref
 		:text: Multimodel Topic Modeling
 		:classes: btn-link stretched-link font-weight-bold
