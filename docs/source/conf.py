@@ -29,7 +29,8 @@ extensions = [
     'ipykernel' # for kernels
 ]
 
-# nbsphinx_kernel_name = 'python'
+nbsphinx_kernel_name = 'python'
+nbsphinx_execute = 'never'
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
