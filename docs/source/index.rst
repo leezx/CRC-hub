@@ -1,19 +1,4 @@
-CRC-hub (DFCI)
-==================
-
-.. toctree::
-	:maxdepth: 1
-	:caption: Contents:
-
-	notebooks/Toolbox
-	notebooks/Datasets
-	usage
-	api
-	notebooks/test
-	notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
-
-
-Block 1
+Welcome to CRC-hub (Sethi lab, DFCI)
 ==================
 
 
@@ -28,7 +13,7 @@ Block 1
 	+++
 	.. link-button:: notebooks/Toolbox
 		:type: ref
-		:text: Multimodel Topic Modeling
+		:text: Toolbox
 		:classes: btn-link stretched-link font-weight-bold
 
 	---
@@ -37,5 +22,14 @@ Block 1
 	+++
 	.. link-button:: notebooks/Datasets
 		:type: ref
-		:text: Multimodel Topic Modeling
+		:text: Datasets
 		:classes: btn-link stretched-link font-weight-bold
+
+.. toctree::
+	:maxdepth: 1
+	:caption: All resources:
+
+	notebooks/Toolbox
+	notebooks/Datasets
+	usage
+	api
