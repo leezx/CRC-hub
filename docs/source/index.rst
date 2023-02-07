@@ -25,6 +25,7 @@ Welcome to CRC-hub (Sethi lab, DFCI)
 		:classes: btn-link stretched-link font-weight-bold
 
 .. toctree::
+	:numbered:
 	:maxdepth: 2
 	:caption: All resources:
 
