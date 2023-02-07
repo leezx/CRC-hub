@@ -42,10 +42,15 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'insipid' # alabaster, furo, sphinx_rtd_theme, pydata_sphinx_theme
+html_theme = 'pydata_sphinx_theme' # alabaster, furo, sphinx_rtd_theme, insipid
 html_logo = "CRChub.png"
 html_static_path = ['_static'] 
 sphinx_rtd_size_width = "100%"
+
+sphinx_gallery_conf = {
+    'thumbnail_size': (250, 250),
+    'default_thumb_file': 'CRChub.png',
+}
 
 logo_only = True
 display_version = False
