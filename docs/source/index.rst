@@ -1,7 +1,6 @@
 Welcome to CRC-hub (Sethi lab, DFCI)
 ==================
 
-
 .. panels::
 	:card: + text-center
 	:img-top-cls: panel-height
