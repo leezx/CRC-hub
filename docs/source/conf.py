@@ -29,7 +29,7 @@ extensions = [
     'ipykernel' # for kernels
 ]
 
-nbsphinx_kernel_name = 'ir41'
+nbsphinx_kernel_name = python3
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
