@@ -5,10 +5,10 @@ CRC-hub (DFCI)
 	:maxdepth: 1
 	:caption: Contents:
 
-	usage
-	api
 	notebooks/Toolbox
 	notebooks/Datasets
+	usage
+	api
 	notebooks/test
 	notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
 
