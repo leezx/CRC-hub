@@ -42,7 +42,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'pydata_sphinx_theme' # alabaster, furo, sphinx_rtd_theme
+html_theme = 'insipid' # alabaster, furo, sphinx_rtd_theme, pydata_sphinx_theme
 html_logo = "CRChub.png"
 html_static_path = ['_static'] 
 sphinx_rtd_size_width = "100%"
