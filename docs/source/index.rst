@@ -7,6 +7,8 @@ CRC-hub (DFCI)
 
 	usage
 	api
+	notebooks/Toolbox
+	notebooks/Datasets
 	notebooks/test
 	notebooks/2023_Kerstin_Hahn_CRC_CMS_ST
 
