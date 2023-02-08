@@ -9,11 +9,11 @@ nbsphinx_execute = 'never' # don't check R code
 # Select nbsphinx and, if needed, other Sphinx extensions:
 extensions = [
     'nbsphinx',
-    'sphinxcontrib.bibtex',  # for bibliographic references
-    'sphinxcontrib.rsvgconverter',  # for SVG->PDF conversion in LaTeX output
-    'sphinx_last_updated_by_git',  # get "last updated" from Git
-    'sphinx_codeautolink',  # automatic links from code to documentation
-    'sphinx.ext.intersphinx',  # links to other Sphinx projects (e.g. NumPy)
+    # 'sphinxcontrib.bibtex',  # for bibliographic references
+    # 'sphinxcontrib.rsvgconverter',  # for SVG->PDF conversion in LaTeX output
+    # 'sphinx_last_updated_by_git',  # get "last updated" from Git
+    # 'sphinx_codeautolink',  # automatic links from code to documentation
+    # 'sphinx.ext.intersphinx',  # links to other Sphinx projects (e.g. NumPy)
 ]
 
 # These projects are also used for the sphinx_codeautolink extension:
