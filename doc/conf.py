@@ -111,10 +111,10 @@ project = 'CRChub'
 author = 'Zhixin Li'
 copyright = '2023, ' + author
 
-linkcheck_ignore = [
-    r'http://localhost:\d+/',
-    'https://github.com/spatialaudio/nbsphinx/compare/',
-]
+# linkcheck_ignore = [
+#     r'http://localhost:\d+/',
+#     'https://github.com/spatialaudio/nbsphinx/compare/',
+# ]
 
 # nitpicky = True
 
