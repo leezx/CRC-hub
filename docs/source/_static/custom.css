@@ -20,3 +20,8 @@
 .bottom-of-page {
     visibility: hidden;
 }
+.sphx-glr-thumbnails {
+    max-height: 100px !important;
+    max-width: 100px !important;
+    margin: 1px !important;
+}
