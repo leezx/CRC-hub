@@ -1,4 +1,4 @@
-Welcome to CRC-hub (Sethi lab, DFCI)
+Welcome to CRC-hub!
 ==================
 
 .. panels::

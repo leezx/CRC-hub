@@ -12,7 +12,7 @@
   /* each grid column should be at least 160px (this will determine
   the actual number of columns) and then take as much of the
   remaining width as possible */
-  grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+  grid-template-columns: repeat(3, 33.33%);
   gap: 1px;
 }
 .sphx-glr-thumbnails .toctree-wrapper {
