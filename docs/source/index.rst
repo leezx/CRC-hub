@@ -19,6 +19,15 @@ Welcome to CRC-hub!
 	:img-top: _static/CRChub.png
 
 	+++
+	.. link-button:: notebooks/Databases
+		:type: ref
+		:text: Databases
+		:classes: btn-link stretched-link font-weight-bold
+
+	---
+	:img-top: _static/CRChub.png
+
+	+++
 	.. link-button:: notebooks/Datasets
 		:type: ref
 		:text: Datasets
@@ -30,4 +39,5 @@ Welcome to CRC-hub!
 	:caption: All resources:
 
 	notebooks/Toolbox
+	notebooks/Databases
 	notebooks/Datasets
