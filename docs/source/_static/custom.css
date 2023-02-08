@@ -22,26 +22,10 @@
   display: none;
 }
 .sphx-glr-thumbcontainer {
-  background: transparent;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  box-shadow: 0 0 0px var(--sg-thumb-box-shadow-color);
-
-  /* useful to absolutely position link in div */
-  position: relative;
-
-  /* thumbnail width should include padding and borders
-  and take all available space */
-  box-sizing: border-box;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid transparent;
-
   /* align content in thumbnail */
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
-  gap: 1px;
+  gap: 5px;
 }
 .sphx-glr-thumbcontainer p {
   position: absolute;
