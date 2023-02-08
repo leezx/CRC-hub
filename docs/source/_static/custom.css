@@ -1,8 +1,8 @@
 .wy-nav-content {
-    max-width: 120% !important;
+    width: 120% !important;
 }
 .sphx-glr-thumbcontainer {
-    min-height: 100px !important;
+    height: 100px !important;
     margin: 1px !important;
 }
 .sphx-glr-thumbcontainer .figure {
@@ -10,8 +10,8 @@
 }
 .sphx-glr-thumbcontainer img {
     display: inline;
-    max-height: 100px !important;
-    max-width: 100px !important;
+    height: 100px !important;
+    width: 100px !important;
     margin: 1px !important;
 }
 .sphx-glr-thumbcontainer a.internal {
@@ -21,7 +21,7 @@
     visibility: hidden;
 }
 .sphx-glr-thumbnails {
-    max-height: 100px !important;
-    max-width: 100px !important;
+    height: 100px !important;
+    width: 100px !important;
     margin: 1px !important;
 }
