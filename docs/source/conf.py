@@ -61,6 +61,7 @@ display_version = False
 analytics_id = 'G-K4WP6HMMF7'
 html_show_sourcelink = False
 html_show_sphinx = False
+html_show_copyright = True
 
 # html_theme_options = {
 #    'analytics_id': 'G-K4WP6HMMF7',  #  Provided by Google in your dashboard, UA-253317179-2
