@@ -65,14 +65,12 @@
   cursor: pointer;
 }
 .sphx-glr-thumbcontainer a.internal {
-  bottom: 0;
-  display: block;
-  left: 0;
-  box-sizing: border-box;
-  padding: 150px 10px 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+  display: grid;
+  /* each grid column should be at least 160px (this will determine
+  the actual number of columns) and then take as much of the
+  remaining width as possible */
+  grid-template-columns: repeat(3, 33.33%);
+  gap: 1px;
 }
 /* Next one is to avoid Sphinx traditional theme to cover all the
 thumbnail with its default link Background color */
@@ -88,7 +86,12 @@ thumbnail with its default link Background color */
   width: 150px;
 }
 .sphx-glr-thumbcontainer img {
-  display: inline;
+  display: grid;
+  /* each grid column should be at least 160px (this will determine
+  the actual number of columns) and then take as much of the
+  remaining width as possible */
+  grid-template-columns: repeat(3, 33.33%);
+  gap: 1px;
   max-height: 150px;
   max-width: 150px;
 }
