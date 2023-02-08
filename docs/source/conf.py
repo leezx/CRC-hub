@@ -52,7 +52,7 @@ html_css_files = ["custom.css"]
 
 # for sphinx_gallery
 sphinx_gallery_conf = {
-    'thumbnail_size': (100, 100),
+    'thumbnail_size': (150, 150),
     'line_numbers': True,
     'default_thumb_file': 'CRChub.png',
     'nested_sections' : False,
