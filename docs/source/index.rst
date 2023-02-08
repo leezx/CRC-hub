@@ -50,4 +50,5 @@ Welcome to CRC-hub!
 	notebooks/Toolbox
 	notebooks/Databases
 	notebooks/Datasets
+	theme-based
 	notebooks/More
