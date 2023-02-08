@@ -2,9 +2,8 @@ Welcome to CRC-hub!
 ==================
 
 .. panels::
-	:card: + text-center
-	:img-top-cls: panel-height
-	:body: p-0
+	:container: container-lg pb-3
+	:column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
 
 	---
 	:img-top: _static/toolbox.png
