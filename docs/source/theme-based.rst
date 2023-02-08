@@ -1,9 +1,9 @@
-Theme-based projects
+Theme-based
 ==================
 
 
 Theme 1: Lineage plasticity in cancer
-==================
+#########
 
 .. panels::
 	:container: container-lg pb-3
@@ -13,7 +13,7 @@ Theme 1: Lineage plasticity in cancer
 	:img-top: _static/toolbox.png
 
 	+++
-	.. link-button:: notebooks/toolbox/theme-based/lineage-plasticity-overview.ipynb
+	.. link-button:: notebooks/toolbox/theme-based/lineage-plasticity-overview
 		:type: ref
 		:text: Lineage-plasticity-overview
 		:classes: btn-link stretched-link font-weight-bold
