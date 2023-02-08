@@ -47,7 +47,7 @@ html_logo = "CRChub.png"
 html_static_path = ['_static'] 
 sphinx_rtd_size_width = "120%"
 
-html_css_files = 'css/custom.css'
+html_css_files = ["css/custom.css"]
 
 # for sphinx_gallery
 sphinx_gallery_conf = {
@@ -58,6 +58,8 @@ sphinx_gallery_conf = {
 logo_only = True
 display_version = False
 analytics_id = 'G-K4WP6HMMF7'
+html_show_sourcelink = False
+html_show_sphinx = False
 
 # html_theme_options = {
 #    'analytics_id': 'G-K4WP6HMMF7',  #  Provided by Google in your dashboard, UA-253317179-2
