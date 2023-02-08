@@ -16,7 +16,7 @@
   border-radius: 5px;
   box-shadow: 0 0 10px var(--sg-thumb-box-shadow-color);
 
-  width: 33%;
+  width: 50%;
   /* align content in thumbnail */
   display: block;
   margin: auto;
