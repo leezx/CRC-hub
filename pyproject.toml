@@ -1,4 +1,3 @@
-[project]
-name = "CRC-hub"
-authors = [{name = "Zhixin Li", email = "zhixin_li@dfci.harvard.edu"}]
-dynamic = ["version", "description"]
+[build-system]
+requires = ["setuptools >= 40.8.0"]
+build-backend = "setuptools.build_meta"

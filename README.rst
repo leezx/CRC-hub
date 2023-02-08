@@ -1,9 +1,31 @@
-Template for the Read the Docs tutorial
-=======================================
+Jupyter Notebook Tools for Sphinx
+=================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+``nbsphinx`` is a Sphinx_ extension that provides a source parser for
+``*.ipynb`` files.
+Custom Sphinx directives are used to show `Jupyter Notebook`_ code cells (and of
+course their results) in both HTML and LaTeX output.
+Un-evaluated notebooks -- i.e. notebooks without stored output cells -- will be
+automatically executed during the Sphinx build process.
 
-Read the tutorial here:
+Quick Start:
+    #. Install ``nbsphinx``
 
-https://docs.readthedocs.io/en/stable/tutorial/
+    #. Edit your ``conf.py`` and add ``'nbsphinx'`` to ``extensions``.
+
+    #. Edit your ``index.rst`` and add the names of your ``*.ipynb`` files
+       to the ``toctree``.
+
+    #. Run Sphinx!
+
+Online documentation (and example of use):
+    https://nbsphinx.readthedocs.io/
+
+Source code repository (and issue tracker):
+    https://github.com/spatialaudio/nbsphinx/
+
+License:
+    MIT -- see the file ``LICENSE`` for details.
+
+.. _Sphinx: https://www.sphinx-doc.org/
+.. _Jupyter Notebook: https://jupyter.org/
