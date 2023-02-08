@@ -31,13 +31,21 @@
   align-items: center;
   gap: 7px;
   margin: auto;
+  align-items: center;
+  text-align: center;
 }
 .sphx-glr-thumbcontainer .figure {
     margin: auto;
+    align-items: center;
+    text-align: center;
 }
 .sphx-glr-thumbcontainer img {
     margin: auto;
+    align-items: center;
+    text-align: center;
 }
 .sphx-glr-thumbcontainer a.internal {
     margin: auto;
+    align-items: center;
+    text-align: center;
 }
