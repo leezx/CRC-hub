@@ -10,7 +10,7 @@
 }
 .sphx-glr-thumbcontainer img {
     max-height: 100px !important;
-    width: 100px !important;
+    max-width: 100px !important;
     margin: 1px !important;
 }
 .sphx-glr-thumbcontainer a.internal {
