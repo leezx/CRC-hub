@@ -3,7 +3,6 @@
 }
 /*copy from _static/sg_gallery.css file*/
 .sphx-glr-thumbnails {
-  width: 50%;
   margin: 0px 0px 0px 0px;
   /* align thumbnails on a grid */
   display: grid;
@@ -14,6 +13,8 @@
   gap: 1px;
 }
 .sphx-glr-thumbcontainer {
+  width: 50%;
+  justify-content: space-evenly;
   /* align content in thumbnail */
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
