@@ -1,0 +1,8 @@
+myst-parser
+nbsphinx
+sphinx_gallery
+sphinx-panels
+pydata-sphinx-theme
+sphinx-copybutton
+sphinx-rtd-size
+ipykernel
