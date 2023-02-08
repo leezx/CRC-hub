@@ -18,8 +18,7 @@
 
   width: 33%;
   /* align content in thumbnail */
-  display: grid;
-  grid-template-columns: 160px 160px;
+  display: block;
   margin: auto;
   align-items: center;
   text-align: center;
