@@ -85,12 +85,12 @@ thumbnail with its default link Background color */
 }
 .sphx-glr-thumbcontainer .figure {
   margin: 1px;
-  width: 100px;
+  width: 150px;
 }
 .sphx-glr-thumbcontainer img {
   display: inline;
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 150px;
+  max-width: 150px;
 }
 .sphx-glr-thumbcontainer[tooltip]:hover:after {
   background: var(--sg-tooltip-background);
