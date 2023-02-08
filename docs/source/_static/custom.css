@@ -5,7 +5,7 @@
 .sphx-glr-thumbnails {
   margin: 0px 0px 0px 0px;
   /* align thumbnails on a grid */
-  display: grid;
+  display: inline-grid;
   /* each grid column should be at least 160px (this will determine
   the actual number of columns) and then take as much of the
   remaining width as possible */
