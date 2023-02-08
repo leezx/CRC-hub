@@ -45,7 +45,7 @@ templates_path = ['_templates']
 html_theme = 'pydata_sphinx_theme' # alabaster, furo, sphinx_rtd_theme, insipid
 html_logo = "CRChub.png"
 html_static_path = ['_static'] 
-sphinx_rtd_size_width = "100%"
+sphinx_rtd_size_width = "120%"
 
 html_css_files = 'css/custom.css'
 
