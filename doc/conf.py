@@ -1,5 +1,8 @@
 import os
 
+# custome configure
+nbsphinx_execute = 'never' # don't check R code
+
 # You can use sphinx-quickstart to create your own conf.py file!
 # After that, you have to edit a few things.  See below.
 
