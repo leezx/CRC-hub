@@ -2,7 +2,7 @@ Welcome to CRC-hub!
 ==================
 
 .. panels::
-	:container: container-lg pb-3
+	:container: container-lg pb-3 + text-center
 	:column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
 
 	---
