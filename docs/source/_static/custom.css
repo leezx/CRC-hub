@@ -4,6 +4,7 @@
 /*copy from _static/sg_gallery.css file*/
 .sphx-glr-thumbnails {
   width: 90%;
+  display: block;
   margin: auto;
   align-items: center;
   text-align: center;
