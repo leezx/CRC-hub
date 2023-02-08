@@ -1,19 +1,19 @@
 /*.wy-nav-content {
     max-width: 100% !important;
 }*/
-.sphx-glr-thumbcontainer {
+/*.sphx-glr-thumbcontainer {
     min-height: 320px !important;
     margin: 1px !important;
 }
 .sphx-glr-thumbcontainer .figure {
     width: 100px !important;
-}
+}*/
 .sphx-glr-thumbcontainer img {
     display: inline;
     max-height: 100px !important;
     max-width: 100px !important;
     margin: 1px !important;
-}
+/*}
 .sphx-glr-thumbcontainer a.internal {
     padding: 270px 10px 0 !important;
-}
+}*/
