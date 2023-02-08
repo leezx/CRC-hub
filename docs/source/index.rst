@@ -31,5 +31,3 @@ Welcome to CRC-hub!
 
 	notebooks/Toolbox
 	notebooks/Datasets
-	usage
-	api
