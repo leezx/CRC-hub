@@ -7,7 +7,7 @@ Welcome to CRC-hub!
 	:body: p-0
 
 	---
-	:img-top: _static/CRChub.png
+	:img-top: _static/toolbox.png
 
 	+++
 	.. link-button:: notebooks/Toolbox
@@ -16,7 +16,7 @@ Welcome to CRC-hub!
 		:classes: btn-link stretched-link font-weight-bold
 
 	---
-	:img-top: _static/CRChub.png
+	:img-top: _static/databases.png
 
 	+++
 	.. link-button:: notebooks/Databases
@@ -25,7 +25,7 @@ Welcome to CRC-hub!
 		:classes: btn-link stretched-link font-weight-bold
 
 	---
-	:img-top: _static/CRChub.png
+	:img-top: _static/datasets.png
 
 	+++
 	.. link-button:: notebooks/Datasets
