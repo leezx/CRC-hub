@@ -6,8 +6,8 @@ project = 'CRChub'
 copyright = '2023, Zhixin Li (DFCI)'
 author = 'Zhixin Li'
 
-release = '1.0'
-version = '1.0.0'
+version = '0.4.9'
+release = version
 
 # -- General configuration
 master_doc = 'index'
@@ -45,8 +45,8 @@ html_logo = "CRChub.png"
 html_static_path = ['_static'] 
 sphinx_rtd_size_width = "120%"
 
-# html_css_files = ["custom.css"]
-html_style = 'custom.css'
+html_css_files = ["custom.css"]
+# html_style = 'custom.css'
 
 # # for sphinx_gallery
 # sphinx_gallery_conf = {
