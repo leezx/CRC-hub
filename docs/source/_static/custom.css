@@ -16,7 +16,7 @@
   width: 50%;
   justify-content: space-evenly;
   /* align content in thumbnail */
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(3, 33.33%);
   gap: 5px;
 }
