@@ -5,15 +5,7 @@
 .sphx-glr-thumbnails {
   width: 90%;
   margin: auto;
-
-  /* align thumbnails on a grid */
-  justify-content: space-between;
-  /* each grid column should be at least 160px (this will determine
-  the actual number of columns) and then take as much of the
-  remaining width as possible */
-  display: grid;
-  grid-template-columns: 160px;
-  gap: 15px;
+  align-items: center;
 }
 .sphx-glr-thumbcontainer {
   background: transparent;
