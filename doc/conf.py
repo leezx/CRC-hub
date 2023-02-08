@@ -175,8 +175,9 @@ linkcheck_ignore = [
 # -- Options for EPUB output ----------------------------------------------
 
 # These are just defined to avoid Sphinx warnings related to EPUB:
-version = release
+# version = release
 # suppress_warnings = ['epub.unknown_project_files']
+version = "0.4.9"
 
 # -- Set default HTML theme (if none was given above) ---------------------
 
@@ -203,3 +204,5 @@ analytics_id = 'G-K4WP6HMMF7'
 html_show_sourcelink = False
 html_show_sphinx = False
 html_show_copyright = True
+
+# https://nbsphinx.readthedocs.io/en/latest/index.html
