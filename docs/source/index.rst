@@ -33,6 +33,15 @@ Welcome to CRC-hub!
 		:text: Datasets
 		:classes: btn-link stretched-link font-weight-bold
 
+	---
+	:img-top: _static/CRChub.png
+
+	+++
+	.. link-button:: notebooks/More
+		:type: ref
+		:text: More...
+		:classes: btn-link stretched-link font-weight-bold
+
 .. toctree::
 	:numbered:
 	:maxdepth: 2
@@ -41,3 +50,4 @@ Welcome to CRC-hub!
 	notebooks/Toolbox
 	notebooks/Databases
 	notebooks/Datasets
+	notebooks/More
