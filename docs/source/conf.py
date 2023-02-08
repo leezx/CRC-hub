@@ -48,13 +48,13 @@ sphinx_rtd_size_width = "120%"
 # html_css_files = ["custom.css"]
 html_style = 'custom.css'
 
-# for sphinx_gallery
-sphinx_gallery_conf = {
-    'thumbnail_size': (150, 150),
-    'line_numbers': True,
-    'default_thumb_file': 'CRChub.png',
-    'nested_sections' : False,
-}
+# # for sphinx_gallery
+# sphinx_gallery_conf = {
+#     'thumbnail_size': (150, 150),
+#     'line_numbers': True,
+#     'default_thumb_file': 'CRChub.png',
+#     'nested_sections' : False,
+# }
 
 logo_only = True
 display_version = False
@@ -73,3 +73,6 @@ html_show_copyright = True
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# advanced skills
+# https://nbsphinx.readthedocs.io/en/latest/gallery/gallery-with-nested-documents.html
