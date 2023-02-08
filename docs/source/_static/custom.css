@@ -34,7 +34,7 @@
   /* thumbnail width should include padding and borders
   and take all available space */
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: 1px solid transparent;
 
@@ -65,12 +65,14 @@
   cursor: pointer;
 }
 .sphx-glr-thumbcontainer a.internal {
-  display: grid;
-  /* each grid column should be at least 160px (this will determine
-  the actual number of columns) and then take as much of the
-  remaining width as possible */
-  grid-template-columns: repeat(3, 33.33%);
-  gap: 1px;
+  bottom: 0;
+  display: block;
+  left: 0;
+  box-sizing: border-box;
+  padding: 150px 10px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 /* Next one is to avoid Sphinx traditional theme to cover all the
 thumbnail with its default link Background color */
@@ -83,17 +85,12 @@ thumbnail with its default link Background color */
 }
 .sphx-glr-thumbcontainer .figure {
   margin: 1px;
-  width: 150px;
+  width: 100px;
 }
 .sphx-glr-thumbcontainer img {
-  display: grid;
-  /* each grid column should be at least 160px (this will determine
-  the actual number of columns) and then take as much of the
-  remaining width as possible */
-  grid-template-columns: repeat(3, 33.33%);
-  gap: 1px;
-  max-height: 150px;
-  max-width: 150px;
+  display: inline;
+  max-height: 100px;
+  max-width: 100px;
 }
 .sphx-glr-thumbcontainer[tooltip]:hover:after {
   background: var(--sg-tooltip-background);
