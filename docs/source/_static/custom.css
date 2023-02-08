@@ -16,21 +16,10 @@
   border-radius: 5px;
   box-shadow: 0 0 10px var(--sg-thumb-box-shadow-color);
 
-  /* useful to absolutely position link in div */
-  position: relative;
-
-  /* thumbnail width should include padding and borders
-  and take all available space */
-  box-sizing: border-box;
   width: 33%;
-  padding: 10px;
-  border: 1px solid transparent;
-
   /* align content in thumbnail */
   display: grid;
   grid-template-columns: 160px 160px;
-  align-items: center;
-  gap: 7px;
   margin: auto;
   align-items: center;
   text-align: center;
