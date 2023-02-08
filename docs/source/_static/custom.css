@@ -39,10 +39,9 @@
   border: 1px solid transparent;
 
   /* align content in thumbnail */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 7px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  gap: 1px;
 }
 .sphx-glr-thumbcontainer p {
   position: absolute;
