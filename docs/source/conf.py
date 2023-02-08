@@ -55,6 +55,7 @@ sphinx_rtd_size_width = "120%"
 
 # html_css_files = ["custom.css"]
 # html_style = 'custom.css'
+html_style = 'nbsphinx-gallery.css'
 
 # # for sphinx_gallery
 # sphinx_gallery_conf = {
