@@ -5,18 +5,18 @@
 .sphx-glr-thumbnails {
   margin: 0px 0px 0px 0px;
   /* align thumbnails on a grid */
-  display: inline-grid;
+  display: grid;
   /* each grid column should be at least 160px (this will determine
   the actual number of columns) and then take as much of the
   remaining width as possible */
-  grid-template-columns: repeat(3, 33.33%);
+  grid-template-columns: 150px 150px 150px 150px;
   gap: 1px;
 }
 .sphx-glr-thumbcontainer {
   width: 50%;
   justify-content: space-evenly;
   /* align content in thumbnail */
-  display: inline-grid;
-  grid-template-columns: repeat(3, 33.33%);
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
   gap: 5px;
 }
