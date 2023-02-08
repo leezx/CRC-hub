@@ -196,7 +196,7 @@ version = "0.4.9"
 #     tags.add('insipid')
 html_theme = 'pydata_sphinx_theme' # alabaster, furo, sphinx_rtd_theme, insipid
 html_logo = "CRChub.png"
-# html_static_path = ['_static'] 
+html_static_path = ['_static'] 
 sphinx_rtd_size_width = "120%"
 logo_only = True
 display_version = False
