@@ -11,30 +11,27 @@
   /* each grid column should be at least 160px (this will determine
   the actual number of columns) and then take as much of the
   remaining width as possible */
-  display: grid;
-  grid-template-columns: 160px;
+
   gap: 15px;
 }
+
 .sphx-glr-thumbcontainer {
-  background: transparent;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px var(--sg-thumb-box-shadow-color);
-
-  /* useful to absolutely position link in div */
-  position: relative;
-
-  /* thumbnail width should include padding and borders
-  and take all available space */
-  box-sizing: border-box;
-  width: 33%;
-  padding: 10px;
-  border: 1px solid transparent;
-
-  /* align content in thumbnail */
-  display: grid;
-  grid-template-columns: 160px 160px;
-  align-items: center;
-  gap: 7px;
+    min-height: 320px !important;
+    margin: 20px !important;
+    display: grid;
+    grid-template-columns: 320px 320px;
+}
+.sphx-glr-thumbcontainer .figure {
+    width: 250px !important;
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+.sphx-glr-thumbcontainer img {
+    max-height: 250px !important;
+    width: 250px !important;
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+.sphx-glr-thumbcontainer a.internal {
+    padding: 270px 10px 0 !important;
 }
