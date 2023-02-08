@@ -47,6 +47,8 @@ html_logo = "CRChub.png"
 html_static_path = ['_static'] 
 sphinx_rtd_size_width = "100%"
 
+html_style = 'css/custom.css'
+
 # for sphinx_gallery
 sphinx_gallery_conf = {
     'thumbnail_size': (250, 250),
