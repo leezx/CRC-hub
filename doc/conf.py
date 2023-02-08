@@ -25,172 +25,181 @@ intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
 }
 
-# Don't add .txt suffix to source files:
-html_sourcelink_suffix = ''
+# # Don't add .txt suffix to source files:
+# html_sourcelink_suffix = ''
 
-# List of arguments to be passed to the kernel that executes the notebooks:
-nbsphinx_execute_arguments = [
-    "--InlineBackend.figure_formats={'svg', 'pdf'}",
-]
+# # List of arguments to be passed to the kernel that executes the notebooks:
+# nbsphinx_execute_arguments = [
+#     "--InlineBackend.figure_formats={'svg', 'pdf'}",
+# ]
 
-# Environment variables to be passed to the kernel:
-os.environ['MY_DUMMY_VARIABLE'] = 'Hello from conf.py!'
+# # Environment variables to be passed to the kernel:
+# os.environ['MY_DUMMY_VARIABLE'] = 'Hello from conf.py!'
 
-nbsphinx_thumbnails = {
-    'gallery/thumbnail-from-conf-py': 'gallery/a-local-file.png',
-    'gallery/*-rst': 'images/notebook_icon.png',
-    'orphan': '_static/favicon.svg',
-}
+# nbsphinx_thumbnails = {
+#     'gallery/thumbnail-from-conf-py': 'gallery/a-local-file.png',
+#     'gallery/*-rst': 'images/notebook_icon.png',
+#     'orphan': '_static/favicon.svg',
+# }
 
-# This is processed by Jinja2 and inserted before each notebook
-nbsphinx_prolog = r"""
-{% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
+# # This is processed by Jinja2 and inserted before each notebook
+# nbsphinx_prolog = r"""
+# {% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
 
-.. raw:: html
+# .. raw:: html
 
-    <div class="admonition note">
-      This page was generated from
-      <a class="reference external" href="https://github.com/spatialaudio/nbsphinx/blob/{{ env.config.release|e }}/{{ docname|e }}">{{ docname|e }}</a>.
-      Interactive online version:
-      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/spatialaudio/nbsphinx/{{ env.config.release|e }}?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a>.</span>
-      <script>
-        if (document.location.host) {
-          let nbviewer_link = document.createElement('a');
-          nbviewer_link.setAttribute('href',
-            'https://nbviewer.org/url' +
-            (window.location.protocol == 'https:' ? 's/' : '/') +
-            window.location.host +
-            window.location.pathname.slice(0, -4) +
-            'ipynb');
-          nbviewer_link.innerHTML = 'View in <em>nbviewer</em>';
-          nbviewer_link.classList.add('reference');
-          nbviewer_link.classList.add('external');
-          document.currentScript.replaceWith(nbviewer_link, '.');
-        }
-      </script>
-    </div>
+#     <div class="admonition note">
+#       This page was generated from
+#       <a class="reference external" href="https://github.com/spatialaudio/nbsphinx/blob/{{ env.config.release|e }}/{{ docname|e }}">{{ docname|e }}</a>.
+#       Interactive online version:
+#       <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/spatialaudio/nbsphinx/{{ env.config.release|e }}?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a>.</span>
+#       <script>
+#         if (document.location.host) {
+#           let nbviewer_link = document.createElement('a');
+#           nbviewer_link.setAttribute('href',
+#             'https://nbviewer.org/url' +
+#             (window.location.protocol == 'https:' ? 's/' : '/') +
+#             window.location.host +
+#             window.location.pathname.slice(0, -4) +
+#             'ipynb');
+#           nbviewer_link.innerHTML = 'View in <em>nbviewer</em>';
+#           nbviewer_link.classList.add('reference');
+#           nbviewer_link.classList.add('external');
+#           document.currentScript.replaceWith(nbviewer_link, '.');
+#         }
+#       </script>
+#     </div>
 
-.. raw:: latex
+# .. raw:: latex
 
-    \nbsphinxstartnotebook{\scriptsize\noindent\strut
-    \textcolor{gray}{The following section was generated from
-    \sphinxcode{\sphinxupquote{\strut {{ docname | escape_latex }}}} \dotfill}}
-"""
+#     \nbsphinxstartnotebook{\scriptsize\noindent\strut
+#     \textcolor{gray}{The following section was generated from
+#     \sphinxcode{\sphinxupquote{\strut {{ docname | escape_latex }}}} \dotfill}}
+# """
 
-# This is processed by Jinja2 and inserted after each notebook
-nbsphinx_epilog = r"""
-{% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
-.. raw:: latex
+# # This is processed by Jinja2 and inserted after each notebook
+# nbsphinx_epilog = r"""
+# {% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
+# .. raw:: latex
 
-    \nbsphinxstopnotebook{\scriptsize\noindent\strut
-    \textcolor{gray}{\dotfill\ \sphinxcode{\sphinxupquote{\strut
-    {{ docname | escape_latex }}}} ends here.}}
-"""
+#     \nbsphinxstopnotebook{\scriptsize\noindent\strut
+#     \textcolor{gray}{\dotfill\ \sphinxcode{\sphinxupquote{\strut
+#     {{ docname | escape_latex }}}} ends here.}}
+# """
 
-mathjax3_config = {
-    'tex': {'tags': 'ams', 'useLabelIds': True},
-}
+# mathjax3_config = {
+#     'tex': {'tags': 'ams', 'useLabelIds': True},
+# }
 
-bibtex_bibfiles = ['references.bib']
+# bibtex_bibfiles = ['references.bib']
 
-# Support for notebook formats other than .ipynb
-nbsphinx_custom_formats = {
-    '.pct.py': ['jupytext.reads', {'fmt': 'py:percent'}],
-    '.md': ['jupytext.reads', {'fmt': 'Rmd'}],
-}
+# # Support for notebook formats other than .ipynb
+# nbsphinx_custom_formats = {
+#     '.pct.py': ['jupytext.reads', {'fmt': 'py:percent'}],
+#     '.md': ['jupytext.reads', {'fmt': 'Rmd'}],
+# }
 
-# Import Matplotlib to avoid this message in notebooks:
-# "Matplotlib is building the font cache; this may take a moment."
-import matplotlib.pyplot
+# # Import Matplotlib to avoid this message in notebooks:
+# # "Matplotlib is building the font cache; this may take a moment."
+# import matplotlib.pyplot
 
 # -- The settings below this line are not specific to nbsphinx ------------
 
 master_doc = 'index'
 
-project = 'nbsphinx'
-author = 'Matthias Geier'
-copyright = '2020, ' + author
-html_show_copyright = False
+project = 'CRChub'
+author = 'Zhixin Li'
+copyright = '2023, ' + author
 
 linkcheck_ignore = [
     r'http://localhost:\d+/',
     'https://github.com/spatialaudio/nbsphinx/compare/',
 ]
 
-nitpicky = True
+# nitpicky = True
 
 # -- Get version information and date from Git ----------------------------
 
-try:
-    from subprocess import check_output
-    release = check_output(['git', 'describe', '--tags', '--always'])
-    release = release.decode().strip()
-    today = check_output(['git', 'show', '-s', '--format=%ad', '--date=short'])
-    today = today.decode().strip()
-except Exception:
-    release = '<unknown>'
-    today = '<unknown date>'
+# try:
+#     from subprocess import check_output
+#     release = check_output(['git', 'describe', '--tags', '--always'])
+#     release = release.decode().strip()
+#     today = check_output(['git', 'show', '-s', '--format=%ad', '--date=short'])
+#     today = today.decode().strip()
+# except Exception:
+#     release = '<unknown>'
+#     today = '<unknown date>'
 
 # -- Options for HTML output ----------------------------------------------
 
-html_favicon = 'favicon.svg'
-html_title = project + ' version ' + release
+# html_favicon = 'favicon.svg'
+# html_title = project + ' version ' + release
 
 # -- Options for LaTeX output ---------------------------------------------
 
-# See https://www.sphinx-doc.org/en/master/latex.html
-latex_elements = {
-    'papersize': 'a4paper',
-    'printindex': '',
-    'sphinxsetup': r"""
-        %verbatimwithframe=false,
-        %verbatimwrapslines=false,
-        %verbatimhintsturnover=false,
-        noteBorderColor={HTML}{E0E0E0},
-        noteborder=1.5pt,
-        warningBorderColor={HTML}{E0E0E0},
-        warningborder=1.5pt,
-        warningBgColor={HTML}{FBFBFB},
-    """,
-    'preamble': r"""
-\usepackage[sc,osf]{mathpazo}
-\linespread{1.05}  % see http://www.tug.dk/FontCatalogue/urwpalladio/
-\renewcommand{\sfdefault}{pplj}  % Palatino instead of sans serif
-\IfFileExists{zlmtt.sty}{
-    \usepackage[light,scaled=1.05]{zlmtt}  % light typewriter font from lmodern
-}{
-    \renewcommand{\ttdefault}{lmtt}  % typewriter font from lmodern
-}
-""",
-}
+# # See https://www.sphinx-doc.org/en/master/latex.html
+# latex_elements = {
+#     'papersize': 'a4paper',
+#     'printindex': '',
+#     'sphinxsetup': r"""
+#         %verbatimwithframe=false,
+#         %verbatimwrapslines=false,
+#         %verbatimhintsturnover=false,
+#         noteBorderColor={HTML}{E0E0E0},
+#         noteborder=1.5pt,
+#         warningBorderColor={HTML}{E0E0E0},
+#         warningborder=1.5pt,
+#         warningBgColor={HTML}{FBFBFB},
+#     """,
+#     'preamble': r"""
+# \usepackage[sc,osf]{mathpazo}
+# \linespread{1.05}  % see http://www.tug.dk/FontCatalogue/urwpalladio/
+# \renewcommand{\sfdefault}{pplj}  % Palatino instead of sans serif
+# \IfFileExists{zlmtt.sty}{
+#     \usepackage[light,scaled=1.05]{zlmtt}  % light typewriter font from lmodern
+# }{
+#     \renewcommand{\ttdefault}{lmtt}  % typewriter font from lmodern
+# }
+# """,
+# }
 
-latex_table_style = ['booktabs']
+# latex_table_style = ['booktabs']
 
-latex_documents = [
-    (master_doc, 'nbsphinx.tex', project, author, 'howto'),
-]
+# latex_documents = [
+#     (master_doc, 'nbsphinx.tex', project, author, 'howto'),
+# ]
 
-latex_show_urls = 'footnote'
-latex_show_pagerefs = True
+# latex_show_urls = 'footnote'
+# latex_show_pagerefs = True
 
 # -- Options for EPUB output ----------------------------------------------
 
 # These are just defined to avoid Sphinx warnings related to EPUB:
 version = release
-suppress_warnings = ['epub.unknown_project_files']
+# suppress_warnings = ['epub.unknown_project_files']
 
 # -- Set default HTML theme (if none was given above) ---------------------
 
-if 'html_theme' not in globals():
-    try:
-        import insipid_sphinx_theme
-    except ImportError:
-        pass
-    else:
-        html_theme = 'insipid'
-        html_copy_source = False
-        html_permalinks_icon = '#'
+# if 'html_theme' not in globals():
+#     try:
+#         import insipid_sphinx_theme
+#     except ImportError:
+#         pass
+#     else:
+#         html_theme = 'insipid'
+#         html_copy_source = False
+#         html_permalinks_icon = '#'
 
-if globals().get('html_theme') == 'insipid':
-    # This controls optional content in index.rst:
-    tags.add('insipid')
+# if globals().get('html_theme') == 'insipid':
+#     # This controls optional content in index.rst:
+#     tags.add('insipid')
+html_theme = 'pydata_sphinx_theme' # alabaster, furo, sphinx_rtd_theme, insipid
+html_logo = "CRChub.png"
+# html_static_path = ['_static'] 
+sphinx_rtd_size_width = "120%"
+logo_only = True
+display_version = False
+analytics_id = 'G-K4WP6HMMF7'
+html_show_sourcelink = False
+html_show_sphinx = False
+html_show_copyright = True
