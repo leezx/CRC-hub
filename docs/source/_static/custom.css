@@ -19,7 +19,7 @@
   width: 33.3%;
   /* align content in thumbnail */
   display: block;
-  margin: auto;
+/*  margin: auto;*/
   align-items: center;
   text-align: center;
 }
