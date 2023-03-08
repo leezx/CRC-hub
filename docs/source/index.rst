@@ -46,9 +46,10 @@ Welcome to CRC-hub!
 	:maxdepth: 2
 	:caption: All resources:
 
-	notebooks/Toolbox
+	notebooks/ModelExp
+	notebooks/NGS
 	notebooks/Databases
 	notebooks/Datasets
+	notebooks/Toolbox
 	theme-based
-	notebooks/Models
 	notebooks/More
