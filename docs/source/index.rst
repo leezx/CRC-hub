@@ -18,7 +18,7 @@ Welcome to CRC-hub!
 	:img-top: _static/databases.png
 
 	+++
-	.. link-button:: notebooks/Databases
+	.. link-button:: notebooks/Data Center
 		:type: ref
 		:text: Databases
 		:classes: btn-link stretched-link font-weight-bold
@@ -27,7 +27,7 @@ Welcome to CRC-hub!
 	:img-top: _static/datasets.png
 
 	+++
-	.. link-button:: notebooks/Datasets
+	.. link-button:: notebooks/ModelExp
 		:type: ref
 		:text: Datasets
 		:classes: btn-link stretched-link font-weight-bold
